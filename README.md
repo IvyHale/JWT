@@ -1,4 +1,4 @@
-5 Easy Steps to Understanding JSON Web Tokens (JWT)
+## 5 Easy Steps to Understanding JSON Web Tokens (JWT)
 In this article, the fundamentals of what JSON Web Tokens (JWT) are, and why they are used will be explained. JWT are an important piece in ensuring trust and security in your application. JWT allow claims, such as user data, to be represented in a secure manner.
 
 To explain how JWT work, let’s begin with an abstract definition.
