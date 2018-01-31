@@ -12,7 +12,9 @@ JSON Web Tokens consist of three parts separated by dots (.), which are:
 * Payload
 * Signature
 Therefore, a JWT typically looks like the following.
+    '''
     xxxxx.yyyyy.zzzzz
+    '''
     
 ### Step 1. Header
 The header component of the JWT contains information about how the JWT signature should be computed. The header is a JSON object in the following format:
