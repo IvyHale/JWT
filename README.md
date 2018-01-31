@@ -6,7 +6,7 @@ The usage of a JWT (for 3 entities) is shown in the diagram below.
 ![link](https://cdn-images-1.medium.com/max/1000/1*SSXUQJ1dWjiUrDoKaaiGLA.png)
 The entities in this example are the user, the application server, and the authentication server. The authentication server will provide the JWT to the user. With the JWT, the user can then safely communicate with the application.
 
-##Creating JWT
+## Creating JWT
 JSON Web Tokens consist of three parts separated by dots (.), which are:
 * Header
 * Payload
@@ -14,7 +14,7 @@ JSON Web Tokens consist of three parts separated by dots (.), which are:
 Therefore, a JWT typically looks like the following.
     xxxxx.yyyyy.zzzzz
     
-######Header
+###### Header
 The header component of the JWT contains information about how the JWT signature should be computed. The header is a JSON object in the following format:
     {
         "alg": "HS256",
