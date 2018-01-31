@@ -1,5 +1,5 @@
 # JWT (JSON Web Tokens)
-##Briefing
+## Briefing
 This guide shows how to create a [JWT](http://https://jwt.io/). JWTs can be signed using a secret (with the HMAC algorithm) or a public/private key pair using RSA. JWT claims can be typically used to pass identity of authenticated users between an identity provider and a service provider, or any other type of claims as required by business processes.
 
 The usage of a JWT (for 3 entities) is shown in the diagram below. 
