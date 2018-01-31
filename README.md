@@ -3,7 +3,7 @@
 This guide shows how to create a [JWT](http://https://jwt.io/). JWTs can be signed using a secret (with the HMAC algorithm) or a public/private key pair using RSA. JWT claims can be typically used to pass identity of authenticated users between an identity provider and a service provider, or any other type of claims as required by business processes.
 
 In authentication, when the user successfully logs in using their credentials, a JSON Web Token will be returned and must be saved locally (typically in local storage, but cookies can be also used), instead of the traditional approach of creating a session in the server and returning a cookie.
-The following diagram shows this process:
+The following diagram shows all the process:
 ![link](https://cdn.auth0.com/content/jwt/jwt-diagram.png)
 
 ## Creating JWT
